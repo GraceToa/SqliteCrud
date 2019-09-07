@@ -1,6 +1,6 @@
 
 <table align="center"><tr><td align="center" width="9999">
-<img src="https://user-images.githubusercontent.com/10947013/64112337-66c55c00-cd87-11e9-8373-ff1dc2fac6e3.png" align="center" width="150" alt="Project icon">
+<img src="https://user-images.githubusercontent.com/10947013/64476206-76301500-d18c-11e9-815e-680fd84a43b0.jpg" align="center"  alt="Project icon">
 
 # SqliteCrud
 
