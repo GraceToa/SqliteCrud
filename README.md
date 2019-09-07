@@ -32,9 +32,9 @@ Grace Toa  (App Developer)
         <th colspan="3">iPhone X 12.4</th> 
     </tr>
     <tr>
-        <td><img src="https://user-images.githubusercontent.com/10947013/64476373-3ec26800-d18e-11e9-8df5-226b5a3ae7ef.png"             width="250" alt="login"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54477347-25f07f80-4807-11e9-9afb-d5939475d59a.png"             width="250" alt="register"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54477368-57694b00-4807-11e9-85f5-d7f1c98e8739.png"              width="250" alt="profile"></td>     
+        <td><img src="https://user-images.githubusercontent.com/10947013/64476373-3ec26800-d18e-11e9-8df5-226b5a3ae7ef.png"             width="250" alt="list"></td>
+        <td><img src="https://user-images.githubusercontent.com/10947013/64476480-809fde00-d18f-11e9-8036-61ef7c4e415d.png"             width="250" alt="add"></td>
+        <td><img src="https://user-images.githubusercontent.com/10947013/64476508-b2b14000-d18f-11e9-8b3f-05636175d5a7.png"              width="250" alt="list"></td>     
     </tr>
      <tr>
         <td><img src="https://user-images.githubusercontent.com/10947013/54477395-add68980-4807-11e9-8da2-e26ba268dc3e.png"             width="250" alt="login"></td>
