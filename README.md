@@ -13,7 +13,7 @@ The basic idea of the app is to facilitate the user to develop a personal style 
 
 This app use Database SQlite., SQLite is available by default on iOS.
 
- ## ![]("https://user-images.githubusercontent.com/10947013/64476206-76301500-d18c-11e9-815e-680fd84a43b0.jpg" width="150") Official Documentation Sqlite
+ ## ![](https://user-images.githubusercontent.com/10947013/64476206-76301500-d18c-11e9-815e-680fd84a43b0.jpg) Official Documentation Sqlite
  * Official Documentation: [SQlite](http://cocoadocs.org/docsets/SQLite.swift/0.11.3/)
  
 ## Feature
