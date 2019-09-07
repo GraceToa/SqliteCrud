@@ -8,10 +8,9 @@ App for iOS use Sqlite DataBase
 </td></tr></table>
 
 
-<strong>My Contacts</strong>: It is designed to help the user organize their wardrobe, as well as create and combine sets for each season, create custom lists distributed in categories according to the type of clothing.
-The basic idea of the app is to facilitate the user to develop a personal style and organization of their wardrobe.
+<strong>My Contacts</strong>: It is designed to help the user to organize their contacts in a personalized way, classifying them by Family, Friends, Best Friends, Coworkers., In each contact their birth date is saved and a note as a reminder about the contact.
 
-This app use Database SQlite., SQLite is available by default on iOS.
+This MyContacts App use Database SQlite (CRUD)., SQLite is available by default on iOS.
 
 ## Autor
 Grace Toa  (App Developer)
