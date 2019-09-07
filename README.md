@@ -13,6 +13,9 @@ The basic idea of the app is to facilitate the user to develop a personal style 
 
 This app use Database SQlite., SQLite is available by default on iOS.
 
+## Autor
+Grace Toa
+App Developer
  
 ## Feature
 - Swift 5
