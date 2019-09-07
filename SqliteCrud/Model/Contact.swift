@@ -10,21 +10,19 @@ import Foundation
 
 class Contact: CustomStringConvertible {
     
-    
     var id: Int64
     var category: String?
     var name: String?
     var birthday: String?
     var about: String?
-    var image: String?
 
-    init(id: Int64, category: String?, name: String?, birthday: String?, about: String?, image: String?) {
+    init(id: Int64, category: String?, name: String?, birthday: String?, about: String?) {
         self.id = id
         self.category = category
         self.name = name
         self.birthday = birthday
         self.about = about
-        self.image = image
+     
     }
     
     var description: String {

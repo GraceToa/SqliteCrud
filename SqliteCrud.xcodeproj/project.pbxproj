@@ -13,11 +13,13 @@
 		C04DEB3822E5D92A00C546BD /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DEB3722E5D92A00C546BD /* AddContactViewController.swift */; };
 		C04DEB3A22E5D97700C546BD /* DetailContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DEB3922E5D97700C546BD /* DetailContactViewController.swift */; };
 		C04DEB3C22E5D99700C546BD /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DEB3B22E5D99700C546BD /* ContactTableViewCell.swift */; };
+		C0A28EA7231DC4080033DB83 /* ContactEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A28EA6231DC4080033DB83 /* ContactEntity.swift */; };
 		C0A7DE3322E48E7D00DE73EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DE3222E48E7D00DE73EC /* AppDelegate.swift */; };
 		C0A7DE3822E48E7D00DE73EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A7DE3622E48E7D00DE73EC /* Main.storyboard */; };
 		C0A7DE3A22E48E7F00DE73EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0A7DE3922E48E7F00DE73EC /* Assets.xcassets */; };
 		C0A7DE3D22E48E7F00DE73EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A7DE3B22E48E7F00DE73EC /* LaunchScreen.storyboard */; };
 		C0A7DE4522E4947400DE73EC /* DatabaseManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A7DE4422E4947400DE73EC /* DatabaseManagement.swift */; };
+		C0D3521023224D1C00A80E12 /* HelperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D3520F23224D1C00A80E12 /* HelperManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,7 @@
 		C04DEB3722E5D92A00C546BD /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		C04DEB3922E5D97700C546BD /* DetailContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactViewController.swift; sourceTree = "<group>"; };
 		C04DEB3B22E5D99700C546BD /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		C0A28EA6231DC4080033DB83 /* ContactEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactEntity.swift; sourceTree = "<group>"; };
 		C0A7DE2F22E48E7D00DE73EC /* SqliteCrud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SqliteCrud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A7DE3222E48E7D00DE73EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0A7DE3722E48E7D00DE73EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		C0A7DE3C22E48E7F00DE73EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0A7DE3E22E48E7F00DE73EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0A7DE4422E4947400DE73EC /* DatabaseManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManagement.swift; sourceTree = "<group>"; };
+		C0D3520F23224D1C00A80E12 /* HelperManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperManager.swift; sourceTree = "<group>"; };
 		E0CB38215F164B255FA780D2 /* Pods-SqliteCrud.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteCrud.release.xcconfig"; path = "Target Support Files/Pods-SqliteCrud/Pods-SqliteCrud.release.xcconfig"; sourceTree = "<group>"; };
 		FD95D09293736A2A27C045B4 /* Pods_SqliteCrud.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SqliteCrud.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -67,6 +71,35 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C0960DFC2323F05600EA6662 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C04DEB3322E5D8E100C546BD /* ListViewController.swift */,
+				C04DEB3722E5D92A00C546BD /* AddContactViewController.swift */,
+				C04DEB3922E5D97700C546BD /* DetailContactViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C0960DFD2323F07300EA6662 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C04DEB3B22E5D99700C546BD /* ContactTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C0960DFE2323F08500EA6662 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C01596DB22E7239F000554AC /* Contact.swift */,
+				C0A28EA6231DC4080033DB83 /* ContactEntity.swift */,
+				C0D3520F23224D1C00A80E12 /* HelperManager.swift */,
+				C0A7DE4422E4947400DE73EC /* DatabaseManagement.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C0A7DE2622E48E7D00DE73EC = {
 			isa = PBXGroup;
 			children = (
@@ -88,17 +121,14 @@
 		C0A7DE3122E48E7D00DE73EC /* SqliteCrud */ = {
 			isa = PBXGroup;
 			children = (
+				C0960DFE2323F08500EA6662 /* Model */,
+				C0960DFD2323F07300EA6662 /* View */,
+				C0960DFC2323F05600EA6662 /* Controller */,
 				C0A7DE3222E48E7D00DE73EC /* AppDelegate.swift */,
 				C0A7DE3622E48E7D00DE73EC /* Main.storyboard */,
 				C0A7DE3922E48E7F00DE73EC /* Assets.xcassets */,
 				C0A7DE3B22E48E7F00DE73EC /* LaunchScreen.storyboard */,
 				C0A7DE3E22E48E7F00DE73EC /* Info.plist */,
-				C0A7DE4422E4947400DE73EC /* DatabaseManagement.swift */,
-				C04DEB3322E5D8E100C546BD /* ListViewController.swift */,
-				C04DEB3722E5D92A00C546BD /* AddContactViewController.swift */,
-				C04DEB3922E5D97700C546BD /* DetailContactViewController.swift */,
-				C04DEB3B22E5D99700C546BD /* ContactTableViewCell.swift */,
-				C01596DB22E7239F000554AC /* Contact.swift */,
 			);
 			path = SqliteCrud;
 			sourceTree = "<group>";
@@ -224,7 +254,9 @@
 				C01596DC22E7239F000554AC /* Contact.swift in Sources */,
 				C0A7DE3322E48E7D00DE73EC /* AppDelegate.swift in Sources */,
 				C04DEB3422E5D8E100C546BD /* ListViewController.swift in Sources */,
+				C0D3521023224D1C00A80E12 /* HelperManager.swift in Sources */,
 				C04DEB3A22E5D97700C546BD /* DetailContactViewController.swift in Sources */,
+				C0A28EA7231DC4080033DB83 /* ContactEntity.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
