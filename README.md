@@ -14,19 +14,22 @@ The basic idea of the app is to facilitate the user to develop a personal style 
 This app use Database SQlite., SQLite is available by default on iOS.
 
  ## ![](https://github.com/FranHenriquez/otro/blob/master/apple.png) Official Documentation Apple
- * Official Documentation: [CoreData](https://developer.apple.com/documentation/coredata)
+ * Official Documentation: [SQlite](http://cocoadocs.org/docsets/SQLite.swift/0.11.3/)
  
- ## Link
- - the running app is shown in
 ## Feature
 - Swift 5
 - Xcode 10.2.1 
-- Core Data
+- Cocoapods
+- SQlite
 - MVC
+- iPhone X 12.4
+
+ ## Link
+ - the running app is shown in
 
 <table border="3" bordercolor="black" align="center"width="9999">
     <tr>
-        <th> iPhone 8 12-2 </th> 
+        <th> iPhone X 12.4 </th> 
     </tr>
       
 <tr align="center">
