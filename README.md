@@ -32,31 +32,19 @@ Grace Toa  (App Developer)
         <th colspan="3">iPhone X 12.4</th> 
     </tr>
     <tr>
-        <td><img src="https://user-images.githubusercontent.com/10947013/64476373-3ec26800-d18e-11e9-8df5-226b5a3ae7ef.png"             width="250" alt="list"></td>
+        <td><img src="https://user-images.githubusercontent.com/10947013/64476545-1176b980-d190-11e9-8685-27c25681cc0a.png"             width="250" alt="list"></td>
         <td><img src="https://user-images.githubusercontent.com/10947013/64476480-809fde00-d18f-11e9-8036-61ef7c4e415d.png"             width="250" alt="add"></td>
         <td><img src="https://user-images.githubusercontent.com/10947013/64476508-b2b14000-d18f-11e9-8b3f-05636175d5a7.png"              width="250" alt="list"></td>     
     </tr>
      <tr>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54477395-add68980-4807-11e9-8da2-e26ba268dc3e.png"             width="250" alt="login"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54477910-e88ef080-480c-11e9-9aa6-54e878b0337a.png"             width="250" alt="register"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54478305-e9c21c80-4810-11e9-81a2-497a5c8ca857.png"              width="250" alt="profile"></td>     
+        <td><img src="https://user-images.githubusercontent.com/10947013/64476552-2ce1c480-d190-11e9-8b29-786bcc3c152e.png"             width="250" alt="login"></td>
+        <td><img src="https://user-images.githubusercontent.com/10947013/64476565-45ea7580-d190-11e9-8c16-7074acd90f2b.png"             width="250" alt="register"></td>
+        <td><img src="https://user-images.githubusercontent.com/10947013/64476573-5dc1f980-d190-11e9-89b7-1c591aed95b0.png"              width="250" alt="profile"></td>     
     </tr>
       <tr>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54477948-48859700-480d-11e9-96c5-2ac14a856f7b.png"             width="250" alt="login"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54477978-8da9c900-480d-11e9-804a-39c77d472fd7.png"             width="250" alt="register"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54478001-c8abfc80-480d-11e9-971c-fa387e5a3a44.png"              width="250" alt="profile"></td>     
+        <td><img src="https://user-images.githubusercontent.com/10947013/64476581-74685080-d190-11e9-8865-9a7e40f74ef1.png"             width="250" alt="login"></td>
+        <td><img src="https://user-images.githubusercontent.com/10947013/64476585-8a761100-d190-11e9-8f54-c13fde7a5be2.png"             width="250" alt="register"></td>
+        <td><img src=""></td>     
     </tr>
-     <tr>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54478005-e24d4400-480d-11e9-9009-5969d30b85ae.png"             width="250" alt="login"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54478011-fa24c800-480d-11e9-9736-520ccb93d678.png"             width="250" alt="register"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54478131-550aef00-480f-11e9-9055-c2fbb7a8e9c3.png"              width="250" alt="profile"></td>     
-    </tr>
-    <tr>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54477988-ab772e00-480d-11e9-8268-2ed9c53f8225.png"             width="250" alt="login"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54478114-2a209b00-480f-11e9-974e-414fea7f9a0a.png"             width="250" alt="register"></td>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54478240-38bb8200-4810-11e9-80fa-9c66f1b3abf9.png"              width="250" alt="profile"></td>     
-    </tr>
-    <tr>
-        <td><img src="https://user-images.githubusercontent.com/10947013/54478247-57217d80-4810-11e9-8f40-8d2ccd922547.png"             width="250" alt="login"></td>  
-    </tr> 
+    
 </table>
