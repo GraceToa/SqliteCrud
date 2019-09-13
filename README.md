@@ -24,7 +24,7 @@ Grace Toa  (App Developer)
 - iPhone X 12.4
 
  ## Link
- - the running app is shown in
+ - 
 
 <table border="3" bordercolor="black" align="center">
     <tr>
