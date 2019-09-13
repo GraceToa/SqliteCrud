@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import EventKit
+
 
 class AddContactViewController: UIViewController {
     
@@ -15,6 +17,7 @@ class AddContactViewController: UIViewController {
     @IBOutlet weak var btnDrop: UIButton!
     @IBOutlet weak var tableCateg: UITableView!
     @IBOutlet weak var aboutPerson: UITextView!
+   
     
     var categories = HelperManager.shared.categories
     var category: String = ""
@@ -23,7 +26,7 @@ class AddContactViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "ADD or Edit Contact"
+        title = "Add or Edit Contact"
         let doneBtn = UIBarButtonItem(barButtonSystemItem: .done, target: self, action: #selector(done))
         navigationItem.rightBarButtonItem = doneBtn
         tableCateg.isHidden = true
@@ -40,6 +43,8 @@ class AddContactViewController: UIViewController {
         }
         btnDrop.layer.cornerRadius = 4
         aboutPerson.layer.cornerRadius = 4
+        
+
     }
     
     // MARK: - Actions methods
@@ -107,13 +112,15 @@ class AddContactViewController: UIViewController {
             toastLabel.removeFromSuperview()
         })
     }
-    
+        
+    // MARK: - Helpers Methods
+ 
     func clearFields()  {
         name.text = ""
         btnDrop.setTitle("What is your personal relationship?", for: .normal)
         aboutPerson.text = ""
     }
-    
+ 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
@@ -140,7 +147,13 @@ extension AddContactViewController: UITableViewDelegate, UITableViewDataSource {
     }
 }
 
-
+extension Date {
+    func string(format: String) -> String {
+        let formatter = DateFormatter()
+        formatter.dateFormat = format
+        return formatter.string(from: self)
+    }
+}
 
 
 
