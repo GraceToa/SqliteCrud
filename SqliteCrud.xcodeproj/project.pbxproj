@@ -8,7 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		1E4FCBCF33355A90A180BB1A /* Pods_SqliteCrud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD95D09293736A2A27C045B4 /* Pods_SqliteCrud.framework */; };
-		C01596DC22E7239F000554AC /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01596DB22E7239F000554AC /* Contact.swift */; };
+		C02EBF392342488C0077A6EE /* birthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C02EBF382342488C0077A6EE /* birthday.jpg */; };
+		C02EBF3B234250150077A6EE /* ListContactiPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02EBF3A234250150077A6EE /* ListContactiPhoneViewController.swift */; };
+		C02EBF3D234250E00077A6EE /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02EBF3C234250E00077A6EE /* Contact.swift */; };
+		C02EBF41234271080077A6EE /* DetailContactiPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02EBF40234271080077A6EE /* DetailContactiPhoneViewController.swift */; };
+		C02EBF43234275FD0077A6EE /* Call.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02EBF42234275FD0077A6EE /* Call.storyboard */; };
+		C02EBF45234276240077A6EE /* Sms.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02EBF44234276240077A6EE /* Sms.storyboard */; };
+		C02EBF472342763C0077A6EE /* Email.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C02EBF462342763C0077A6EE /* Email.storyboard */; };
+		C02EBF49234279690077A6EE /* CallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02EBF48234279690077A6EE /* CallViewController.swift */; };
 		C04DEB3422E5D8E100C546BD /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DEB3322E5D8E100C546BD /* ListViewController.swift */; };
 		C04DEB3822E5D92A00C546BD /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DEB3722E5D92A00C546BD /* AddContactViewController.swift */; };
 		C04DEB3A22E5D97700C546BD /* DetailContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04DEB3922E5D97700C546BD /* DetailContactViewController.swift */; };
@@ -24,7 +31,14 @@
 
 /* Begin PBXFileReference section */
 		36CFE1523195AF1AAF7DBF59 /* Pods-SqliteCrud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteCrud.debug.xcconfig"; path = "Target Support Files/Pods-SqliteCrud/Pods-SqliteCrud.debug.xcconfig"; sourceTree = "<group>"; };
-		C01596DB22E7239F000554AC /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		C02EBF382342488C0077A6EE /* birthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = birthday.jpg; path = Assets.xcassets/birthday.imageset/birthday.jpg; sourceTree = "<group>"; };
+		C02EBF3A234250150077A6EE /* ListContactiPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContactiPhoneViewController.swift; sourceTree = "<group>"; };
+		C02EBF3C234250E00077A6EE /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = ../../Contact.swift; sourceTree = "<group>"; };
+		C02EBF40234271080077A6EE /* DetailContactiPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactiPhoneViewController.swift; sourceTree = "<group>"; };
+		C02EBF42234275FD0077A6EE /* Call.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Call.storyboard; sourceTree = "<group>"; };
+		C02EBF44234276240077A6EE /* Sms.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Sms.storyboard; sourceTree = "<group>"; };
+		C02EBF462342763C0077A6EE /* Email.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Email.storyboard; sourceTree = "<group>"; };
+		C02EBF48234279690077A6EE /* CallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewController.swift; sourceTree = "<group>"; };
 		C04DEB3322E5D8E100C546BD /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		C04DEB3722E5D92A00C546BD /* AddContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
 		C04DEB3922E5D97700C546BD /* DetailContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailContactViewController.swift; sourceTree = "<group>"; };
@@ -75,8 +89,11 @@
 			isa = PBXGroup;
 			children = (
 				C04DEB3322E5D8E100C546BD /* ListViewController.swift */,
+				C02EBF3A234250150077A6EE /* ListContactiPhoneViewController.swift */,
 				C04DEB3722E5D92A00C546BD /* AddContactViewController.swift */,
 				C04DEB3922E5D97700C546BD /* DetailContactViewController.swift */,
+				C02EBF40234271080077A6EE /* DetailContactiPhoneViewController.swift */,
+				C02EBF48234279690077A6EE /* CallViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -92,7 +109,7 @@
 		C0960DFE2323F08500EA6662 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C01596DB22E7239F000554AC /* Contact.swift */,
+				C02EBF3C234250E00077A6EE /* Contact.swift */,
 				C0A28EA6231DC4080033DB83 /* ContactEntity.swift */,
 				C0D3520F23224D1C00A80E12 /* HelperManager.swift */,
 				C0A7DE4422E4947400DE73EC /* DatabaseManagement.swift */,
@@ -129,6 +146,10 @@
 				C0A7DE3922E48E7F00DE73EC /* Assets.xcassets */,
 				C0A7DE3B22E48E7F00DE73EC /* LaunchScreen.storyboard */,
 				C0A7DE3E22E48E7F00DE73EC /* Info.plist */,
+				C02EBF382342488C0077A6EE /* birthday.jpg */,
+				C02EBF42234275FD0077A6EE /* Call.storyboard */,
+				C02EBF44234276240077A6EE /* Sms.storyboard */,
+				C02EBF462342763C0077A6EE /* Email.storyboard */,
 			);
 			path = SqliteCrud;
 			sourceTree = "<group>";
@@ -195,6 +216,10 @@
 			files = (
 				C0A7DE3D22E48E7F00DE73EC /* LaunchScreen.storyboard in Resources */,
 				C0A7DE3A22E48E7F00DE73EC /* Assets.xcassets in Resources */,
+				C02EBF45234276240077A6EE /* Sms.storyboard in Resources */,
+				C02EBF43234275FD0077A6EE /* Call.storyboard in Resources */,
+				C02EBF392342488C0077A6EE /* birthday.jpg in Resources */,
+				C02EBF472342763C0077A6EE /* Email.storyboard in Resources */,
 				C0A7DE3822E48E7D00DE73EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,11 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C02EBF3B234250150077A6EE /* ListContactiPhoneViewController.swift in Sources */,
 				C04DEB3C22E5D99700C546BD /* ContactTableViewCell.swift in Sources */,
+				C02EBF41234271080077A6EE /* DetailContactiPhoneViewController.swift in Sources */,
 				C0A7DE4522E4947400DE73EC /* DatabaseManagement.swift in Sources */,
 				C04DEB3822E5D92A00C546BD /* AddContactViewController.swift in Sources */,
-				C01596DC22E7239F000554AC /* Contact.swift in Sources */,
 				C0A7DE3322E48E7D00DE73EC /* AppDelegate.swift in Sources */,
+				C02EBF49234279690077A6EE /* CallViewController.swift in Sources */,
+				C02EBF3D234250E00077A6EE /* Contact.swift in Sources */,
 				C04DEB3422E5D8E100C546BD /* ListViewController.swift in Sources */,
 				C0D3521023224D1C00A80E12 /* HelperManager.swift in Sources */,
 				C04DEB3A22E5D97700C546BD /* DetailContactViewController.swift in Sources */,

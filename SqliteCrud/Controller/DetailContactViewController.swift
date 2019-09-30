@@ -183,7 +183,6 @@ extension DetailContactViewController: UNUserNotificationCenterDelegate {
     }
     
     @IBAction func createNotification(_ sender: Any) {
-        print("ENTRA")
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         let content = UNMutableNotificationContent()
         content.title = "Happy birthday \(self.name.text ?? "Not name")"
@@ -191,7 +190,7 @@ extension DetailContactViewController: UNUserNotificationCenterDelegate {
         content.body = "This is reminder birthday, \(self.about.text ?? "Not about")"
         content.sound = UNNotificationSound.default
         
-        if let path = Bundle.main.path(forResource: "birthday", ofType: "png"){
+        if let path = Bundle.main.path(forResource: "birthday", ofType: "jpg"){
             let url = URL(fileURLWithPath: path)
             do{
                 let image = try UNNotificationAttachment(identifier: "birthday", url: url, options: nil)
