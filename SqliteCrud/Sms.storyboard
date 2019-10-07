@@ -10,20 +10,59 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sms View Controller-->
         <scene sceneID="ZyL-5f-IYG">
             <objects>
-                <viewController id="xuF-RE-29p" sceneMemberID="viewController">
+                <viewController id="xuF-RE-29p" customClass="SmsViewController" customModule="SqliteCrud" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Uer-LI-yqU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dGj-AE-pcE">
+                                <rect key="frame" x="20" y="64" width="374" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="bPc-YH-iwm">
+                                <rect key="frame" x="20" y="116" width="374" height="326"/>
+                                <color key="backgroundColor" red="0.88879670600000005" green="0.88879670600000005" blue="0.88879670600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hu5-CK-p7y">
+                                <rect key="frame" x="20" y="473" width="374" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="sendSms:" destination="xuF-RE-29p" eventType="touchUpInside" id="R2I-iU-0Be"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bPc-YH-iwm" firstAttribute="top" secondItem="dGj-AE-pcE" secondAttribute="bottom" constant="28" id="3EB-if-D4k"/>
+                            <constraint firstItem="dGj-AE-pcE" firstAttribute="leading" secondItem="9Dv-pU-hxi" secondAttribute="leading" constant="20" id="9XZ-il-eYY"/>
+                            <constraint firstItem="9Dv-pU-hxi" firstAttribute="trailing" secondItem="Hu5-CK-p7y" secondAttribute="trailing" constant="20" id="9ne-e8-LNJ"/>
+                            <constraint firstItem="bPc-YH-iwm" firstAttribute="leading" secondItem="9Dv-pU-hxi" secondAttribute="leading" constant="20" id="HiA-Zd-Hen"/>
+                            <constraint firstItem="9Dv-pU-hxi" firstAttribute="bottom" secondItem="Hu5-CK-p7y" secondAttribute="bottom" constant="350" id="c3x-dt-2QM"/>
+                            <constraint firstItem="9Dv-pU-hxi" firstAttribute="trailing" secondItem="bPc-YH-iwm" secondAttribute="trailing" constant="20" id="dpD-Zc-bEk"/>
+                            <constraint firstItem="Hu5-CK-p7y" firstAttribute="top" secondItem="bPc-YH-iwm" secondAttribute="bottom" constant="31" id="lcK-Nw-M8I"/>
+                            <constraint firstItem="Hu5-CK-p7y" firstAttribute="leading" secondItem="9Dv-pU-hxi" secondAttribute="leading" constant="20" id="m0a-rm-rML"/>
+                            <constraint firstItem="dGj-AE-pcE" firstAttribute="top" secondItem="9Dv-pU-hxi" secondAttribute="top" constant="20" id="m1q-53-FnV"/>
+                            <constraint firstItem="9Dv-pU-hxi" firstAttribute="trailing" secondItem="dGj-AE-pcE" secondAttribute="trailing" constant="20" id="sCr-Sc-mRo"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="9Dv-pU-hxi"/>
                     </view>
+                    <connections>
+                        <outlet property="nameContact" destination="dGj-AE-pcE" id="dO1-i6-vra"/>
+                        <outlet property="sms" destination="bPc-YH-iwm" id="EBV-u6-ck8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Yfv-Tv-fBh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="148" y="136"/>
+            <point key="canvasLocation" x="147.82608695652175" y="135.9375"/>
         </scene>
     </scenes>
 </document>

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1E4FCBCF33355A90A180BB1A /* Pods_SqliteCrud.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD95D09293736A2A27C045B4 /* Pods_SqliteCrud.framework */; };
+		C00FD26C23488EF40054416F /* SmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FD26B23488EF40054416F /* SmsViewController.swift */; };
+		C00FD26E23488F040054416F /* EmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C00FD26D23488F040054416F /* EmailViewController.swift */; };
 		C02EBF392342488C0077A6EE /* birthday.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C02EBF382342488C0077A6EE /* birthday.jpg */; };
 		C02EBF3B234250150077A6EE /* ListContactiPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02EBF3A234250150077A6EE /* ListContactiPhoneViewController.swift */; };
 		C02EBF3D234250E00077A6EE /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02EBF3C234250E00077A6EE /* Contact.swift */; };
@@ -31,6 +33,8 @@
 
 /* Begin PBXFileReference section */
 		36CFE1523195AF1AAF7DBF59 /* Pods-SqliteCrud.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SqliteCrud.debug.xcconfig"; path = "Target Support Files/Pods-SqliteCrud/Pods-SqliteCrud.debug.xcconfig"; sourceTree = "<group>"; };
+		C00FD26B23488EF40054416F /* SmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmsViewController.swift; sourceTree = "<group>"; };
+		C00FD26D23488F040054416F /* EmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailViewController.swift; sourceTree = "<group>"; };
 		C02EBF382342488C0077A6EE /* birthday.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = birthday.jpg; path = Assets.xcassets/birthday.imageset/birthday.jpg; sourceTree = "<group>"; };
 		C02EBF3A234250150077A6EE /* ListContactiPhoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListContactiPhoneViewController.swift; sourceTree = "<group>"; };
 		C02EBF3C234250E00077A6EE /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Contact.swift; path = ../../Contact.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				C04DEB3922E5D97700C546BD /* DetailContactViewController.swift */,
 				C02EBF40234271080077A6EE /* DetailContactiPhoneViewController.swift */,
 				C02EBF48234279690077A6EE /* CallViewController.swift */,
+				C00FD26B23488EF40054416F /* SmsViewController.swift */,
+				C00FD26D23488F040054416F /* EmailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -143,13 +149,13 @@
 				C0960DFC2323F05600EA6662 /* Controller */,
 				C0A7DE3222E48E7D00DE73EC /* AppDelegate.swift */,
 				C0A7DE3622E48E7D00DE73EC /* Main.storyboard */,
-				C0A7DE3922E48E7F00DE73EC /* Assets.xcassets */,
-				C0A7DE3B22E48E7F00DE73EC /* LaunchScreen.storyboard */,
-				C0A7DE3E22E48E7F00DE73EC /* Info.plist */,
-				C02EBF382342488C0077A6EE /* birthday.jpg */,
 				C02EBF42234275FD0077A6EE /* Call.storyboard */,
 				C02EBF44234276240077A6EE /* Sms.storyboard */,
 				C02EBF462342763C0077A6EE /* Email.storyboard */,
+				C0A7DE3B22E48E7F00DE73EC /* LaunchScreen.storyboard */,
+				C0A7DE3922E48E7F00DE73EC /* Assets.xcassets */,
+				C0A7DE3E22E48E7F00DE73EC /* Info.plist */,
+				C02EBF382342488C0077A6EE /* birthday.jpg */,
 			);
 			path = SqliteCrud;
 			sourceTree = "<group>";
@@ -278,9 +284,11 @@
 				C02EBF41234271080077A6EE /* DetailContactiPhoneViewController.swift in Sources */,
 				C0A7DE4522E4947400DE73EC /* DatabaseManagement.swift in Sources */,
 				C04DEB3822E5D92A00C546BD /* AddContactViewController.swift in Sources */,
+				C00FD26E23488F040054416F /* EmailViewController.swift in Sources */,
 				C0A7DE3322E48E7D00DE73EC /* AppDelegate.swift in Sources */,
 				C02EBF49234279690077A6EE /* CallViewController.swift in Sources */,
 				C02EBF3D234250E00077A6EE /* Contact.swift in Sources */,
+				C00FD26C23488EF40054416F /* SmsViewController.swift in Sources */,
 				C04DEB3422E5D8E100C546BD /* ListViewController.swift in Sources */,
 				C0D3521023224D1C00A80E12 /* HelperManager.swift in Sources */,
 				C04DEB3A22E5D97700C546BD /* DetailContactViewController.swift in Sources */,
@@ -431,6 +439,7 @@
 			baseConfigurationReference = 36CFE1523195AF1AAF7DBF59 /* Pods-SqliteCrud.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6499BW5722;
 				INFOPLIST_FILE = SqliteCrud/Info.plist;
@@ -440,6 +449,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.graceToa.SqliteCrud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -450,6 +460,7 @@
 			baseConfigurationReference = E0CB38215F164B255FA780D2 /* Pods-SqliteCrud.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6499BW5722;
 				INFOPLIST_FILE = SqliteCrud/Info.plist;
@@ -459,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.graceToa.SqliteCrud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

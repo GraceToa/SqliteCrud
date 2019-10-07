@@ -454,17 +454,17 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="8IK-vb-vQ5">
-                                <rect key="frame" x="40" y="84" width="285" height="21.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8IK-vb-vQ5">
+                                <rect key="frame" x="40" y="84" width="205" height="21.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjf-xe-9St">
-                                        <rect key="frame" x="0.0" y="0.0" width="105" height="21.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="75.5" height="21.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LastName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcI-VR-O5p">
-                                        <rect key="frame" x="105" y="0.0" width="180" height="21.5"/>
+                                        <rect key="frame" x="75.5" y="0.0" width="129.5" height="21.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -483,39 +483,36 @@
                                 </subviews>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="hGn-3R-rdm">
-                                <rect key="frame" x="40" y="187" width="295" height="115"/>
+                                <rect key="frame" x="40" y="187" width="295" height="121"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rdr-AX-etw">
-                                        <rect key="frame" x="0.0" y="0.0" width="295" height="33"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="295" height="35"/>
+                                        <color key="backgroundColor" red="0.88879670600000005" green="0.88879670600000005" blue="0.88879670600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Call"/>
                                         <connections>
                                             <action selector="call:" destination="hPG-WP-4zQ" eventType="touchUpInside" id="Zaf-C3-pcI"/>
-                                            <segue destination="TwF-Zm-aeb" kind="show" identifier="ShowCall" id="CHb-dm-gZR"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7k-s2-Lpn">
-                                        <rect key="frame" x="0.0" y="41" width="295" height="33"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <rect key="frame" x="0.0" y="43" width="295" height="35"/>
+                                        <color key="backgroundColor" red="0.88879670600000005" green="0.88879670600000005" blue="0.88879670600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="SMS"/>
                                         <connections>
                                             <action selector="sms:" destination="hPG-WP-4zQ" eventType="touchUpInside" id="fGE-dV-awi"/>
-                                            <segue destination="qrs-bt-w4e" kind="show" identifier="ShowSMS" id="6ca-0L-Gcm"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qJu-9H-Wm9">
-                                        <rect key="frame" x="0.0" y="82" width="295" height="33"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <rect key="frame" x="0.0" y="86" width="295" height="35"/>
+                                        <color key="backgroundColor" red="0.88879670600000005" green="0.88879670600000005" blue="0.88879670600000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Email"/>
                                         <connections>
                                             <action selector="email:" destination="hPG-WP-4zQ" eventType="touchUpInside" id="ZPl-Xn-uxb"/>
-                                            <segue destination="AfD-TB-rv5" kind="show" identifier="ShowEmail" id="Jst-MF-Bct"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -528,7 +525,7 @@
                             <constraint firstItem="Chp-lO-bKO" firstAttribute="trailing" secondItem="jRj-XE-Zoo" secondAttribute="trailing" constant="40" id="967-Xo-Adn"/>
                             <constraint firstItem="hGn-3R-rdm" firstAttribute="leading" secondItem="Chp-lO-bKO" secondAttribute="leading" constant="40" id="HRT-LI-axk"/>
                             <constraint firstItem="jRj-XE-Zoo" firstAttribute="top" secondItem="8IK-vb-vQ5" secondAttribute="bottom" constant="20" id="RaS-9Z-arj"/>
-                            <constraint firstItem="Chp-lO-bKO" firstAttribute="trailing" secondItem="8IK-vb-vQ5" secondAttribute="trailing" constant="50" id="Y2A-LD-azZ"/>
+                            <constraint firstItem="Chp-lO-bKO" firstAttribute="trailing" secondItem="8IK-vb-vQ5" secondAttribute="trailing" constant="130" id="Y2A-LD-azZ"/>
                             <constraint firstItem="8IK-vb-vQ5" firstAttribute="leading" secondItem="Chp-lO-bKO" secondAttribute="leading" constant="40" id="gyF-0e-hNC"/>
                             <constraint firstItem="Chp-lO-bKO" firstAttribute="trailing" secondItem="hGn-3R-rdm" secondAttribute="trailing" constant="40" id="lp6-hT-yyX"/>
                             <constraint firstItem="jRj-XE-Zoo" firstAttribute="leading" secondItem="Chp-lO-bKO" secondAttribute="leading" constant="40" id="pAl-5I-odX"/>
@@ -539,6 +536,9 @@
                         <outlet property="lastname" destination="IcI-VR-O5p" id="MjC-X2-f56"/>
                         <outlet property="name" destination="zjf-xe-9St" id="Jsc-zn-21M"/>
                         <outlet property="phone" destination="0HL-f1-CLe" id="YSO-p7-8NU"/>
+                        <segue destination="TwF-Zm-aeb" kind="show" identifier="ShowCall" id="4Wy-MA-GaZ"/>
+                        <segue destination="qrs-bt-w4e" kind="show" identifier="ShowSms" id="tb9-Oj-3b4"/>
+                        <segue destination="AfD-TB-rv5" kind="show" identifier="ShowEmail" id="PQs-BU-zPR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QgF-II-IWN" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -551,7 +551,7 @@
                 <viewControllerPlaceholder storyboardName="Call" id="TwF-Zm-aeb" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7h5-lk-ItN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3716" y="1480"/>
+            <point key="canvasLocation" x="3603" y="1573"/>
         </scene>
         <!--Sms-->
         <scene sceneID="bS9-vi-bv3">
@@ -559,7 +559,7 @@
                 <viewControllerPlaceholder storyboardName="Sms" id="qrs-bt-w4e" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zq4-jW-fHs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3714" y="1534"/>
+            <point key="canvasLocation" x="3606" y="1644"/>
         </scene>
         <!--Email-->
         <scene sceneID="H7h-so-hvE">
@@ -567,7 +567,7 @@
                 <viewControllerPlaceholder storyboardName="Email" id="AfD-TB-rv5" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3rh-OC-swk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3716" y="1595"/>
+            <point key="canvasLocation" x="3606" y="1725"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9ZK-ft-Wbg">
